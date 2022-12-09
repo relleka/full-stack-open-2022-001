@@ -1,6 +1,6 @@
 ```mermaid
 sequenceDiagram
-user->>browser: open page 
+user->>browser: select url
 browser->>server: request for url new-note-spa
 server->>browser: url new_not_spa
 browser->>server: get request for json.data
